@@ -1,0 +1,22 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown-container ul {
+  position: absolute;
+  margin-top: -2px;
+  padding: 0 0 0 0;
+  border: 1px solid rgb(216, 216, 216);
+  list-style: none;
+  background-color: white;
+  width: calc(100% - 2px);
+}
+
+.dropdown-container ul li {
+  padding: 5px;
+  text-align: center;
+}
+
+.dropdown-container ul li:hover {
+  background-color: rgb(241, 240, 240);
+}

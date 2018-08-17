@@ -1,0 +1,47 @@
+button {
+  background-color: white;
+  padding: 15px 20px;
+  font-size: 16px;
+  border: 1px solid rgb(216, 216, 216);
+  border-radius: 5px;
+}
+
+button:active {
+  background-color: rgb(228, 228, 228);
+  border-color: rgb(172, 172, 172);
+}
+
+button:not(.active):hover {
+  border-color: rgb(172, 172, 172);
+}
+
+.active {
+  background-color: rgb(209, 241, 209);
+  color: rgb(5, 136, 5);
+  border-color: rgb(5, 136, 5);
+}
+
+button,
+li {
+  cursor: pointer;
+}
+
+.card {
+  padding: 12px 20px 20px 20px;
+  font-family: sans-serif;
+}
+
+.card > ul {
+  padding: 0;
+  margin: 0;
+}
+
+.card > ul > li {
+  list-style: none;
+  float: left;
+  padding: 7px;
+}
+
+.arrow-down {
+  vertical-align: middle;
+}
